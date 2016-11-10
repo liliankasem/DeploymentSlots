@@ -9,7 +9,7 @@ module.exports = function (app) {
 router.get('/', function (req, res, next) {
   var articles = [new Article(), new Article()];
     res.render('index', {
-      title: 'Hello Decoded, from a node js jade application',
+      title: 'Hello from a node js jade application',
       articles: articles
     });
 });
