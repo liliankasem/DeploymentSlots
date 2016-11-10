@@ -37,7 +37,7 @@ request.setAttribute("tomcatExamplesUrl", "/examples/");
             <h1>${pageContext.servletContext.serverInfo}</h1><br/>
             
             <div id="congrats" class="curved container">
-                <h1>Hello Decoded, from a java application using tomcat</h1>
+                <h1>Hello from a java application using tomcat</h1>
             </div>
             
             <br/>
